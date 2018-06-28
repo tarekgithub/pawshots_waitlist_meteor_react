@@ -20,7 +20,7 @@ export const renderRoutes = () => (
       <Route exact path="/listpet" component={ ListPetPage } />
       <Route path="/listpet/:id" component={ DetailPetPage } />
       <Route path="/editpet" component={ EditPetPage } />
-      <Route exact={true} path="/" component={ AppContainer } />
+      <Route exact={true} path="/" component={ MainContainer } />
     </div>
   </Router>
 );

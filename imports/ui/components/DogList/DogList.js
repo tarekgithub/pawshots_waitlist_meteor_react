@@ -8,8 +8,8 @@ export default class DogList extends Component {
   render() {
     const pet = this.props.pet;
     
-    const listItems = pet.dogs.map((dog) =>
-      <li className="doglist-li" key={dog.dogName}>
+    const listItems = pet.dogs.map((dog, idx) =>
+      <li className="doglist-li" key={`dog-${idx.toString()}`}>
         {dog.dogName}
       </li>
     );

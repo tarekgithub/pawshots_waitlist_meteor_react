@@ -5,6 +5,11 @@ import AddPetPage from '../pages/AddPetPage/AddPet';
 import PreFooter from '../components/PreFooter/PreFooter';
 import MainFooter from '../components/MainFooter/MainFooter';
 
+import Alert from 'react-s-alert';
+ 
+import 'react-s-alert/dist/s-alert-default.css';
+import 'react-s-alert/dist/s-alert-css-effects/slide.css';
+
 export default class AppContainer extends Component {
   constructor(props){
     super(props);
@@ -34,8 +39,10 @@ export default class AppContainer extends Component {
     const { isAuthenticated } = this.state;
     return (
       <div>
-        <AddPetPage isAuthenticated = {isAuthenticated}/>
-        {isAuthenticated ? <MainFooter onLogout={this.logoutHandler}/> : <PreFooter onLogin={this.loginHandler}/>}
+        <span>
+          <AddPetPage isAuthenticated = {isAuthenticated}/>
+          {isAuthenticated ? <MainFooter onLogout={this.logoutHandler}/> : <PreFooter onLogin={this.loginHandler}/>}
+        </span>
       </div>
     );
   }

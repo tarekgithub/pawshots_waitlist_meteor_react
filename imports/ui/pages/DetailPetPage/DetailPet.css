@@ -55,6 +55,7 @@
 	width: 50%;
 	border-radius: 5px;
 	border: 1px solid #C1C1C1;
+	padding-left: 10px;
 }
 
 .notes-title {
@@ -65,6 +66,7 @@
 	width: 100%;
 	border: 1px solid #C1C1C1;
 	border-radius: 5px;
+	padding-left: 10px;
 }
 
 .payment-title {
@@ -76,7 +78,7 @@
 	justify-content: space-between;
 }
 
-.none-btn {
+.activeBtn {
 	width: 30%;
 	border-radius: 5px;
 	background-color: #FCF35C;
@@ -85,15 +87,7 @@
 	height: 4rem;
 }
 
-.card-btn {
-	width: 30%;
-	border-radius: 5px;
-	background-color: #FAFAFA;
-	border: 1px solid black;
-	height: 4rem;
-}
-
-.cash-btn {
+.noneActiveBtn {
 	width: 30%;
 	border-radius: 5px;
 	background-color: #FAFAFA;
@@ -102,7 +96,7 @@
 }
 
 .total-title {
-	padding: 20px 0 10px;
+	padding: 40px 0 20px;
 }
 
 .total-btns {

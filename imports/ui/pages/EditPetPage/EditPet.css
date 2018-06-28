@@ -9,22 +9,25 @@
 	border: 1px solid #C1C1C1;
 	border-radius: 5px;
 	height: 4rem;
+	padding-left: 10px;
 }
 
 .dogname-input {
-	width: 50%;
+	width: 48%;
 	border-radius: 5px;
 	border: 1px solid #C1C1C1;
 	height: 4rem;
-	margin: 8px 5px 8px 0;
+	margin: 8px 2% 8px 0;
+	padding-left: 10px;
 }
 
 .dognumber-input {
-	width: 50%;
+	width: 48%;
 	border-radius: 5px;
 	border: 1px solid #C1C1C1;
 	height: 4rem;
-	margin: 8px 0 8px 5px;
+	margin: 8px 0 8px 2%;
+	padding-left: 10px;
 }
 
 .status-btns {
@@ -39,9 +42,9 @@
 	border: 1px solid;
 }
 
-.scheduled-status-btn {
+.selected-status-btn {
 	width: 46%;
-	margin: 2%;
+	margin: 1% 2%;
 	height: 4rem;
 	border-radius: 5px;
 	background-color: #FCF35C;
@@ -54,6 +57,7 @@
 	height: 4rem;
 	border: 1px solid #C1C1C1;
 	border-radius: 5px;
+	padding-left: 10px;
 }
 
 .last-save-btn {
